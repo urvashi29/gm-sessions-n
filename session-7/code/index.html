@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- internal css -->
+    <style>
+      .card {
+        background-color: paleturquoise;
+        color: palevioletred;
+        font-size: 20px;
+        border: 1px solid dotted;
+        text-align: center;
+        height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p id="sample" style="color: white; background-color: teal">
+      Lorem, ipsum.
+      <span>Hello</span>
+    </p>
+
+    <div id="test"></div>
+
+    <div id="sample-card">Lorem ipsum dolor sit amet.</div>
+
+    <ul id="list">
+      <li class="list-item">HTML</li>
+      <li class="list-item">CSS</li>
+      <li class="list-item">JS</li>
+    </ul>
+
+    <form>
+      <label for="age">Enter </label>
+      <input
+        type="text"
+        id="age"
+        name="age"
+        placeholder="Please enter age..."
+        value=""
+      />
+      <button onclick="captureInput()" type="button">Submit</button>
+    </form>
+
+    <p id="display-age"></p>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
